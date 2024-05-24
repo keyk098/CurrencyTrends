@@ -12,7 +12,7 @@ namespace ForexAnalysis
         static void Main(string[] args)
         {
             // Connection string for SQL Server
-            string connectionString = "Server=YOUR_SERVER_NAME;Database=ForexDB;Integrated Security=True;";
+            string connectionString = "Server=KK505_Database;Database=ForexDB;Integrated Security=True;";
             
             // Load data from the database
             DataTable transactions = LoadTransactionData(connectionString);
